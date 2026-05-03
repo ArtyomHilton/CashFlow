@@ -1,0 +1,13 @@
+<Solution>
+  <Folder Name="/src/">
+    <Project Path="src/CashFlow.WebApi/CashFlow.WebApi.csproj" />
+  </Folder>
+  <Folder Name="/src/Modules/" />
+  <Folder Name="/src/Modules/Identity/">
+    <Project Path="src/Modules/Identity/CashFlow.Identity.Application/CashFlow.Identity.Application.csproj" />
+    <Project Path="src/Modules/Identity/CashFlow.Identity.Domain/CashFlow.Identity.Domain.csproj" />
+    <Project Path="src/Modules/Identity/CashFlow.Identity.Infrastructure/CashFlow.Identity.Infrastructure.csproj" />
+    <Project Path="src/Modules/Identity/CashFlow.Identity.Persistence/CashFlow.Identity.Persistence.csproj" />
+    <Project Path="src/Modules/Identity/CashFlow.Identity.Presentation/CashFlow.Identity.Presentation.csproj" />
+  </Folder>
+</Solution>
